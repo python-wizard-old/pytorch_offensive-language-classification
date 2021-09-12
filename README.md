@@ -22,15 +22,15 @@ W celu przyspieszenia obliczeń używam CUDA.
 
 Takie samo środowisko można użyć komend:
 
-conda create -n torch
+    conda create -n torch
 
-conda activate torch
+    conda activate torch
 
-conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+    conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
 
-conda install -c conda-forge pandas matplotlib numpy scikit-learn spacy ipython
+    conda install -c conda-forge pandas matplotlib numpy scikit-learn spacy ipython
 
-conda install -c conda-forge ipython notebook jupyterlab jupytext
+    conda install -c conda-forge ipython notebook jupyterlab jupytext
 
 
 ## Proces wczytywania danych, tworzenia modelu i nauki od początku do końca
