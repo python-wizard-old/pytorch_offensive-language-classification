@@ -7,10 +7,9 @@ https://sites.google.com/site/offensevalsharedtask/offenseval2019
 
 Rozwiązania zadania a i zadania b są w dwóch plikach:
 
-Task a: [task_a_w2vec.ipynb] (task_a_w2vec.ipynb)
+Task a: [task_a_w2vec.ipynb](task_a_w2vec.ipynb)
 
-Task b: [task_b_w2vec.ipynb] (task_b_w2vec.ipynb)
-
+Task b: [task_b_w2vec.ipynb](task_b_w2vec.ipynb)
 
 ## Środowisko
 
