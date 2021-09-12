@@ -7,9 +7,9 @@ https://sites.google.com/site/offensevalsharedtask/offenseval2019
 
 Rozwiązania zadania a i zadania b są w dwóch plikach:
 
-Task a: task_a_w2vec.ipynb
+Task a: [task_a_w2vec.ipynb] (task_a_w2vec.ipynb)
 
-Task b: task_b_w2vec.ipynb
+Task b: [task_b_w2vec.ipynb] (task_b_w2vec.ipynb)
 
 
 ## Środowisko
@@ -23,13 +23,9 @@ W celu przyspieszenia obliczeń używam CUDA.
 Takie samo środowisko można użyć komend:
 
     conda create -n torch
-
     conda activate torch
-
     conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
-
     conda install -c conda-forge pandas matplotlib numpy scikit-learn spacy ipython
-
     conda install -c conda-forge ipython notebook jupyterlab jupytext
 
 
@@ -54,8 +50,6 @@ Każdemu Tweetowi przypisuje number odpowiadający lematowi ze słownika dict_le
 Generuję (albo wczytuję) wektory embeddingów ze Spacy (szerokość, czy wymiar 96) w trochę okrężny sposób, iterując przez słownik dict_lemmas i pytając Spacy o lemat dla danego słowa i zapisując do listy embeddings. Potem tą listę konwertuję na tensor Pytorchowy. Chodzi o to, żeby wiersz tensora embedingów odpowiadał liczbie ze słownika dict_lemmas.
 
 Potem definiuję model w Pytorchu. Modelowi przekazywane są:
-
-
 
 * ilość (szerokość) danych wejściowych - odpowiada najdłuższemu tweetowi z danych treningowych lub testowych.
 * ilość neuronów pierwszej i drugiej warstwy ukrytej (ewentualnie trzeciej jeśli ma przypisaną liczbę).
