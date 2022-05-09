@@ -1,5 +1,10 @@
 # Identifying and Categorizing Offensive Language in Social Media
 
+For Polish version of readme click below:
+
+[Identyfikowanie i kategoryzowanie języka nienawiści w mediach społocznościowych](./README_PL.md) - 
+Identyfikowanie i kategoryzowanie języka nienawiści w mediach społocznościowych.
+
 Task from website:
 
 https://sites.google.com/site/offensevalsharedtask/offenseval2019
